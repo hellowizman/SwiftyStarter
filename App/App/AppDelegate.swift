@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Visuality
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navigationController = UINavigationController()
         navigationController.navigationBar.prefersLargeTitles = false
         navigationController.viewControllers = [
-            MainViewController()
+            MainViewController.from(nib: .byClassName, inBundle: .main)
         ]
         
         let screenFrame = UIScreen.main.bounds

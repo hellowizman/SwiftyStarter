@@ -1,0 +1,16 @@
+PODS:
+  - Visuality (5.5)
+
+DEPENDENCIES:
+  - Visuality
+
+SPEC REPOS:
+  trunk:
+    - Visuality
+
+SPEC CHECKSUMS:
+  Visuality: 1cddc060e81beb8cabaf73f125e1f4a245c446a0
+
+PODFILE CHECKSUM: 811f205406cf4474aac7f353a007aae9a0e985aa
+
+COCOAPODS: 1.9.0
