@@ -1,11 +1,13 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+workspace 'Workspace.xcworkspace'
+
 target 'App' do
-  # Comment the next line if you don't want to use dynamic frameworks
+  project 'App/App.xcodeproj'
   use_frameworks!
-  workspace '../Workspace.xcworkspace'
-
   pod 'Visuality'
-
+  pod 'Frame'
+  pod 'Hammer'
+  pod 'PinLayout'
 end

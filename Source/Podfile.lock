@@ -1,0 +1,28 @@
+PODS:
+  - Frame (1.2)
+  - Hammer (1.3)
+  - PinLayout (1.8.13)
+  - Visuality (5.5)
+
+DEPENDENCIES:
+  - Frame
+  - Hammer
+  - PinLayout
+  - Visuality
+
+SPEC REPOS:
+  trunk:
+    - Frame
+    - Hammer
+    - PinLayout
+    - Visuality
+
+SPEC CHECKSUMS:
+  Frame: 7d362bccc51ab9336be6a09662ab179c42dc060e
+  Hammer: fb70830747fcde048efd112ca00ca63d2dfe9d1d
+  PinLayout: e41a50260a76508b7a7fcee8955c76639adc69bc
+  Visuality: 1cddc060e81beb8cabaf73f125e1f4a245c446a0
+
+PODFILE CHECKSUM: de580bfccc9427495520357322671fe3de6f528a
+
+COCOAPODS: 1.9.1
