@@ -8,6 +8,7 @@ target 'App' do
   use_frameworks!
   pod 'Visuality'
   pod 'Frame'
+  pod 'Pixels'
   pod 'Hammer'
   pod 'PinLayout'
 end
