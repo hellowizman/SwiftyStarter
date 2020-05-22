@@ -15,6 +15,11 @@ class MainViewController: UIViewController {
         self.setupNavigationBar()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
     private func setupNavigationBar() {
         self.navigationItem.title = "Main Screen"
         self.navigationItem.largeTitleDisplayMode = .always
