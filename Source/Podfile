@@ -11,4 +11,5 @@ target 'App' do
   pod 'Pixels'
   pod 'Hammer'
   pod 'PinLayout'
+  #pod 'RealmSwift'
 end
