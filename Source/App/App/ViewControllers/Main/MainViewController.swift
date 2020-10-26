@@ -1,11 +1,3 @@
-//
-//  MainViewController.swift
-//  App
-//
-//  Created by Visuality on 30.03.2020.
-//  Copyright © 2020 Igor Matyushkin. All rights reserved.
-//
-
 import UIKit
 
 class MainViewController: UIViewController {
